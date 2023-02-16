@@ -11,7 +11,7 @@
 
 let nameFilms=prompt(`Введите название любимого фильма`);
 function messegeShow(){
-if (nameFilms==Гнев) {
+if (nameFilms==(`Гнев`)) {
     let messege=(`Верно, поздравляем!`);
     alert (messege);
     return;
